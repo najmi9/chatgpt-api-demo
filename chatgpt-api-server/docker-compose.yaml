@@ -1,0 +1,6 @@
+version: '3'
+services:
+  server:
+    build: ./chatgpt-api-server
+    ports:
+      - 5000:5000
